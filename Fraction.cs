@@ -6,7 +6,7 @@ namespace Lesson_05
     {
 
         private int numerator = 1;              // Числитель
-        public int denominator;			        // Знаменатель
+        public int denominator ;		        // Знаменатель
 
         public Fraction( int denominator)
         {
@@ -20,7 +20,7 @@ namespace Lesson_05
                 this.denominator = denominator;
             }
         }
-
+       
         public Fraction()
         {
         }
